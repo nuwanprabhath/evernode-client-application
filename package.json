@@ -2,9 +2,12 @@
     "name": "calculator-client",
     "dependencies": {
         "cors": "^2.8.5",
+        "dotenv": "^16.4.5",
+        "evernode-js-client": "^0.6.43",
         "express": "^4.18.3",
         "hotpocket-js-client": "0.5.3",
-        "xrpl": "^3.0.0"
+        "xrpl": "^3.0.0",
+        "xrpl-accountlib": "^3.2.9"
     },
     "scripts": {
         "start": "node server/index.js"
